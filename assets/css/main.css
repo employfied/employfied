@@ -16,7 +16,6 @@ header, main, footer
 
 header
 {
-	background: #d00;
 	border-bottom: 1px solid;
 	border-bottom-color: #eee;
 }
@@ -34,5 +33,5 @@ main
 footer
 {
 	color: #eee;
-	background: #333;
+	background: #d00;
 }
