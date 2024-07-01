@@ -28,6 +28,8 @@ header
 main
 {
 	background: #fff;
+	font-size: 128px;
+	text-align: center;
 }
 
 footer
