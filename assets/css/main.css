@@ -1,39 +1,145 @@
-body
+:root
 {
-	background: #fff;
-	margin: 0;
-	padding: 0;
-
-	font-family: Arial, Helvetica, sans-serif;
+	--accentColor: #e44;
 }
 
-header, main, footer
+a, a:link, a:visited, a:hover, a:active
 {
-    padding: 16px;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	text-decoration: none;
+}
+
+p
+{
+    margin: 0;
+}
+
+body
+{
+    background: no-repeat url("../../assets/media/background.svg");
+    background: #ccc;
+	background-size: cover;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
+	font-family: Arial, Helvetica, sans-serif;
+	color: #111111;
+
+    padding: 32px;
+
+    margin: 0;
+
+    font-size: 16px;
+}
+
+header, footer, main
+{
+    margin: 0;
+    padding: 8px;
 }
 
 header
 {
-	border-bottom: 1px solid;
-	border-bottom-color: #eee;
-}
-
-#header-logo
-{
-	height: 32px;
+    display: block;
 }
 
 main
 {
-	background: #fff;
-	font-size: 128px;
-	text-align: center;
+    display: block;
 }
 
 footer
 {
-	text-align: center;
-	color: #e44;
+    display: block;
+
+    text-align: center;
+}
+
+.headerText {
+    font-size: 12px;
+}
+
+.mainText {
+    font-size: 64px;
+}
+.subText
+{
+	font-size: 16px;
+}
+
+.footerText {
+    font-size: 12px;
+}
+
+.mainLogoMid {
+    height: 25vw;
+}
+
+.defaultCTA {
+    font-size: 16px;
+
+    padding: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 8px;
+
+    font-weight:normal;
+}
+
+.accentCTA
+{
+    background: var(--accentColor);
+    color: #EEEEEE;
+}
+
+.accentCTA:active, .accentCTA:hover
+{
+    background: #111;
+    color: #eee;
+}
+
+.stdCTA
+{
+    background: #111;
+    color: #eee;
+}
+
+.stdCTA:active, .stdCTA:hover
+{
+    background: var(--accentColor);
+	background: rgba(25, 25, 25, 0.5);
+    color: #ffffff;
+}
+
+.logoMinimal {
+    height: 32px;
+}
+
+.logoFull {
+    height: 24px;
+    padding: 4px;
+}
+
+.iconSocial {
+    padding: 8px;
+    border-radius: 16px;
+
+    color: #111;
+    font-size: 20px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+.iconSocial:active,
+.iconSocial:hover {
+    background: #ddd;
+    color: var(--accentColor);
+}
+
+.accentText {
+    color: var(--accentColor);
+}
+
+.accentBackground {
+    background: var(--accentColor);
 }
