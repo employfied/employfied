@@ -16,7 +16,7 @@ p
 body
 {
     background: no-repeat url("../../assets/media/background.svg");
-    background: #ccc;
+    background: #ddd;
 	background-size: cover;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
