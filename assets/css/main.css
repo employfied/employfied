@@ -101,14 +101,17 @@ footer
     float: right;
     height: 256px;
     padding: 64px;
+    border-radius: 16px;
+    background: var(--accentColor);
 }
 
 @media (orientation: portrait)
 {
-	.mainLogoMid
-	{
-		display: none;
-	}
+    .mainLogoMid
+    {
+        height: 128px;
+        padding: 16px;
+    }
 }
 
 .defaultCTA {
