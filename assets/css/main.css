@@ -63,6 +63,12 @@ footer
     text-align: center;
 }
 
+.defWidth
+{
+	max-width: 1024px;
+	margin: auto;
+}
+
 .headerText {
     font-size: 12px;
 }
